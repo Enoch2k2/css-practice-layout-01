@@ -1,0 +1,116 @@
+div.container {
+  width: 900px;
+  position: relative;
+  background-color: white;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+figcaption {
+  padding-left: 10px;
+  font-size: 12px;
+  font-family: "Times New Roman";
+  font-style: italic;
+}
+
+p {
+  padding: 10px;
+  margin: 0;
+}
+
+nav {
+  width: 100%;
+  margin: 0px;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav ul li {
+  display: inline-block;
+  width: auto;
+}
+
+nav ul li a {
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid black;
+  font-size: 20px;
+  background-color: gray;
+  color: white;
+  width: 445px;
+}
+
+nav ul li a:hover {
+  background-color: blue;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #8585aa;
+}
+
+h3 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  margin-top: 4px;
+  margin-bottom: 2px;
+  padding: 5px;
+  clear:both;
+}
+
+figure {
+  margin: 0;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+.row {
+  width: 100%
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.col-1 {
+  width: 32%;
+  float: left;
+}
+
+.col-2 {
+  width: 66%;
+  float: left;
+}
+
+.col-3 {
+  width: 100%;
+}
+
+[class^="col-"]{
+  margin-left: 2%;
+}
+
+.clear {
+  clear: both;
+}
+
+.first {
+  margin-left: 0px;
+}
+
+.shadow {
+  box-shadow: 1px 1px 1px black;
+}
